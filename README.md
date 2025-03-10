@@ -6,6 +6,6 @@ In this paper, we propose unbiased and biased quantizers for the $L_1$ ball, and
 
 There are two subfolders:
 - NMSE_Results: this contains code to simulate DME where each user has an independent random vector with i.i.d. components. Various distributions are used.
-- Simulation_Results_Datasets: this contains code to simulate communication-efficient federated learning over the MNIST, CIFAR-10 and Fashion-MNIST datasets.
+- Simulation_Results_Datasets: this contains code to simulate communication-efficient federated learning over the MNIST, CIFAR-10 and Fashion-MNIST datasets. For this, we use the [Flower](https://github.com/adap/flower) simulation framework.
 
 For comparison, the code also includes implementations of other algorithms taken from [this Github repo](https://github.com/amitport/QUIC-FL-Quick-Unbiased-Compression-for-Federated-Learning).
