@@ -1,3 +1,8 @@
+""" 
+Code implementations for some existing algorithms taken from https://github.com/amitport/QUIC-FL-Quick-Unbiased-Compression-for-Federated-Learning
+Copyright (c) 2024, Ran Ben-Basat, Yaniv Ben-Itzhak, Amit Portnoy, and Shay Vargaftik
+"""
+
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
